@@ -112,7 +112,7 @@ function setup() {
 }
 
 function grid() {
-  createCanvas(windowWidth,600);
+  let canvas = createCanvas(windowWidth,600);
   
   //const W = int(radio.value())==1?int(input_W.value()):int(input_W.value())*2.8346;
   const H = int(radio.value())==1?int(input_H.value()):int(input_H.value())*2.8346;
@@ -177,8 +177,8 @@ function grid() {
   
   
   
-  const illor_base_x = w>h?500:600;
-  const illor_base_y = w>h?150:80;
+  const illor_base_x = w>h?60:80;
+  const illor_base_y = w>h?80:60;
   const ill_off_x = random(-20,20);
   const ill_off_y = random(-20,20);
   const illor_x = illor_base_x+ill_off_x;
