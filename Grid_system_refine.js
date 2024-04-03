@@ -112,7 +112,7 @@ function setup() {
 }
 
 function grid() {
-  let canvas = createCanvas(windowWidth,600);
+  let canvas = createCanvas(600,600);
   
   //const W = int(radio.value())==1?int(input_W.value()):int(input_W.value())*2.8346;
   const H = int(radio.value())==1?int(input_H.value()):int(input_H.value())*2.8346;
