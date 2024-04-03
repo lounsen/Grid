@@ -12,7 +12,7 @@ function setup() {
   textAlign(CENTER);
   textSize(10);
   pixelDensity(1.0);
-  //createCanvas(windowWidth,400);
+  //createCanvas(400,400);
   
   // create canvas
   let baseX = 100;
